@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/fonts/fonts";
+
+body {
+  --font-ubuntu: "Ubuntu";
+  --font-ubuntu-bold: "Ubuntu-bold";
+  --font-ubuntu-medium: "Ubuntu-medium";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
