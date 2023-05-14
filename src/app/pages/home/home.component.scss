@@ -1,0 +1,31 @@
+.page {
+  background-color: var(--magnolia);
+
+  .steps-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+    .step {
+      position: relative;
+      top: -120px;
+      width: 26px;
+      height: 26px;
+      border: 1px solid var(--white);
+      border-radius: 50%;
+      padding: 0 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--white);
+      font-size: 12px;
+
+      &.active {
+        background-color: var(--lightBlue);
+        color: var(--marineBlue);
+        border: none;
+      }
+    }
+  }
+}

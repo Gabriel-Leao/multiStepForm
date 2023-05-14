@@ -2,14 +2,48 @@
 @import "assets/fonts/fonts";
 
 body {
+  // Typography
   --font-ubuntu: "Ubuntu";
   --font-ubuntu-bold: "Ubuntu-bold";
   --font-ubuntu-medium: "Ubuntu-medium";
+  --body: 16px;
+  font-family: var(--font-ubuntu);
+
+  // colors
+  --marineBlue: #02295a;
+  --purplishBlue: #473dff;
+  --pastelBlue: #adbeff;
+  --lightBlue: #bfe2fd;
+  --strawberryRed: #ed3548;
+  --coolGray: #9699ab;
+  --lightGray: #d6d9e6;
+  --magnolia: #f0f6ff;
+  --alabaster: #fafbff;
+  --white: #ffffff;
 }
 
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
   border: none;
+  font-size: 100%;
+  outline: none;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: var(--body);
 }

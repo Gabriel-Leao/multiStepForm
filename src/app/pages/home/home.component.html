@@ -1,0 +1,15 @@
+<div class="page">
+  <img src="/assets/images/bg-sidebar-mobile.svg" alt="">
+  <div class="steps-container">
+    <div class="step" [ngClass]="{'active': step == 1}">1</div>
+    <div class="step" [ngClass]="{'active': step == 2}">2</div>
+    <div class="step" [ngClass]="{'active': step == 3}">3</div>
+    <div class="step" [ngClass]="{'active': step == 4}">4</div>
+  </div>
+  <div class="card">
+    <form [formGroup]="form" autocomplete="off" (ngSubmit)="onSubmit()">
+      <input type="text" name="" id="" [formControlName]="'name'">
+      <button type="submit" [disabled]="form.invalid">enviar</button>
+    </form>
+  </div>
+</div>
